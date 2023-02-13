@@ -7,25 +7,7 @@
     grid-template-rows: 60px 1fr; /*кол-во строк и их размеры*/
     grid-template-columns: 2fr 10fr; /*кол-во столбцов и их размеры*/
     grid-gap: 10px; /*расстояние между элементами*/
-}
-
-.header {
-    grid-area: h; /*псевданим*/
-    background-color: green;
-}
-
-.header img {
-    width: 55px;
-    display: flex;
+    font-family: cursive;
 
 }
 
-.nav {
-    grid-area: n;
-    background-color: burlywood;
-}
-
-.content {
-    grid-area: c;
-    background: repeating-linear-gradient(45deg, #cccccc 0px, whitesmoke 40px, #cccccc 80px);
-}

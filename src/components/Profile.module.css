@@ -1,0 +1,16 @@
+.content {
+    grid-area: c;
+    background-color: #79E2B3;
+}
+ .content img {
+     max-width: 1024px;
+ }
+
+ .item {
+     color: #8A460F;
+ }
+
+ .posts {
+     color: #3D1B7D;
+
+ }

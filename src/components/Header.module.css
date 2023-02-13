@@ -1,0 +1,9 @@
+.header {
+    grid-area: h; /*псевданим*/
+    background-color: #91E167;
+}
+
+.header img {
+    width: 55px;
+    display: flex;
+}
