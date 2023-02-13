@@ -2,21 +2,19 @@ import s from './MyPosts.module.css';
 import Post from "./Post/Post";
 
 const MyPosts = () => {
-    return <div className={s.item}>
-        My posts
-        <div>
-            <textarea></textarea>
-            <button>Add post</button>
+    return (
+        <div className={s.item}>
+            My posts
+            <div>
+                <textarea></textarea>
+                <button>Add post</button>
+            </div>
+            <div className={s.posts}>
+                <Post message='Hi, how are you?' likeCount='10'/>
+                <Post message="It's my first post" likeCount='124'/>
+            </div>
         </div>
-        <div className={s.posts}>
-            <Post/>
-            <Post/>
-            <Post/>
-            <Post/>
-            <Post/>
-            <Post/>
-        </div>
-    </div>
+    )
 }
 
 export default MyPosts;

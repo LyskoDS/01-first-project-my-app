@@ -1,10 +1,12 @@
 import s from './Header.module.css'; /*импортирование CSS файла*/
 
 const Header = () => {
-    return <header className={s.header}>
-        <img
-            src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Vanamo_Logo.svg/400px-Vanamo_Logo.svg.png'/>
-    </header>
+    return (
+        <header className={s.header}>
+            <img
+                src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Vanamo_Logo.svg/400px-Vanamo_Logo.svg.png'/>
+        </header>
+    )
 }
 
 export default Header; /*экспортирование кода*/

@@ -2,7 +2,8 @@
     margin: 0 auto; /*выравнивание по середине*/
     display: grid;
     width: 1200px; /*общая ширина страницы*/
-    grid-template-areas: /*шаблон страницы*/ "h h"
+    grid-template-areas:  /*шаблон страницы*/
+            "h h"
           "n c";
     grid-template-rows: 60px 1fr; /*кол-во строк и их размеры*/
     grid-template-columns: 2fr 10fr; /*кол-во столбцов и их размеры*/
