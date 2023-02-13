@@ -1,4 +1,4 @@
-import s from './Header.module.css';
+import s from './Header.module.css'; /*импортирование CSS файла*/
 
 const Header = () => {
     return <header className={s.header}>
@@ -7,4 +7,4 @@ const Header = () => {
     </header>
 }
 
-export default Header;
+export default Header; /*экспортирование кода*/

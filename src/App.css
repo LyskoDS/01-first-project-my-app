@@ -8,6 +8,5 @@
     grid-template-columns: 2fr 10fr; /*кол-во столбцов и их размеры*/
     grid-gap: 10px; /*расстояние между элементами*/
     font-family: cursive;
-
 }
 

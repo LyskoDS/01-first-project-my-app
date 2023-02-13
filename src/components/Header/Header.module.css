@@ -1,0 +1,8 @@
+.header {
+    grid-area: h; /*псевданим*/
+    background-color: #91E167; /*цвет фона*/
+}
+
+.header img {
+    width: 55px; /*ширина изображения*/
+}

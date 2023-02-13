@@ -6,3 +6,7 @@
 .item {
     color: #120C59; /*цвет класса*/
 }
+
+.item.active {
+
+}
