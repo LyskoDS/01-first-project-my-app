@@ -3,7 +3,7 @@ import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
     return (
-        <div className={s.content}>
+        <div>
             <div>
                 <img
                     src='https://kartinkin.net/uploads/posts/2022-02/1645929650_30-kartinkin-net-p-kartinki-mototsiklistov-38.jpg'/>

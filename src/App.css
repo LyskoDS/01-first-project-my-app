@@ -11,3 +11,7 @@
     font-family: cursive;
 }
 
+.app-wrapper-content {
+    grid-area: c;
+    background-color: #79E2B3;
+}
