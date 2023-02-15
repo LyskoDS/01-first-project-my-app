@@ -1,12 +1,15 @@
 .nav {
     grid-area: n; /*обозначение элемента*/
     background-color: #91E167; /*цвет фона*/
+    padding: 15px; /*добавляет отступ от края*/
 }
 
 .item {
     color: #120C59; /*цвет класса*/
+    text-decoration: none; /*убирает подчеркивания со ссылок*/
 }
 
-.item.active {
-
+.active {
+    color: #F58109;
+    text-decoration: none;
 }
