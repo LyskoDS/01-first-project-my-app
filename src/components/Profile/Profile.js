@@ -5,7 +5,7 @@ const Profile = () => {
     return (
         <div>
             <div>
-                <img
+                <img width='900px'
                     src='https://kartinkin.net/uploads/posts/2022-02/1645929650_30-kartinkin-net-p-kartinki-mototsiklistov-38.jpg'/>
             </div>
             <div>
