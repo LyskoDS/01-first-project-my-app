@@ -1,7 +1,7 @@
 .dialogs {
     display: grid; /**/
     grid-template-columns: 2fr 10fr; /*делит поле на 2 части*/
-padding: 15px;
+    padding: 15px;
 }
 
 .dialogsItems {
@@ -9,7 +9,7 @@ padding: 15px;
 
 }
 
-.dialogsItems .active {
+.active {
     color: #F58109;
     text-decoration: none;
 }
