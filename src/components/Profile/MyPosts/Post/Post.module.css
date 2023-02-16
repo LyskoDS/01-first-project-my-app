@@ -1,5 +1,6 @@
  .item {
      color: #8A460F; /*цвет элемента*/
+     margin-top: 15px;
  }
 
  .item img {

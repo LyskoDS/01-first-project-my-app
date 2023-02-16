@@ -1,23 +1,25 @@
 .dialogs {
     display: grid; /**/
     grid-template-columns: 2fr 10fr; /*делит поле на 2 части*/
+padding: 15px;
 }
 
 .dialogsItems {
-    padding: 15px; /*отступ со всех сторон*/
+    text-decoration: none; /*убирает подчеркивания со ссылок*/
 
 }
 
 .dialogsItems .active {
     color: #F58109;
+    text-decoration: none;
 }
 
 .dialog {
+    text-decoration: none;
 
 }
 
 .messages {
-    padding: 15px;
 
 }
 
