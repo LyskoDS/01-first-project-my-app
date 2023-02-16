@@ -1,0 +1,9 @@
+.dialogsItems {
+    text-decoration: none; /*убирает подчеркивания со ссылок*/
+
+}
+
+.active {
+    color: #F58109;
+    text-decoration: none;
+}
