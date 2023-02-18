@@ -7,3 +7,8 @@
     color: #F58109;
     text-decoration: none;
 }
+.item img {
+    width: 50px; /*ширина изображения*/
+    height: 50px; /*высота изображения*/
+    border-radius: 25px; /*радиус скругления углов изображения*/
+}
