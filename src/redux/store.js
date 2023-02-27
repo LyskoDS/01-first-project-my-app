@@ -45,7 +45,6 @@ let store = {
     },
 
     dispatch(action) {
-
         this._state.profile = profileReducer(this._state.profile, action);
         this._state.messages = messagesReducer(this._state.messages, action);
         this._state.sidebar = sidebarReducer(this._state.sidebar, action);
